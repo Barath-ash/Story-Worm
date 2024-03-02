@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+       font-family:Arial, Helvetica, sans-serif;
+       background-image: url("BOOK_WORM\ PORJECT.jpg");
+        background-size:cover;
+ 
+}
+.navbar{
+    background-color: #006241;
+    padding: 10px;
+    border-radius: 1px;
+    color: #e3e3e3;
+}
+
+.container{
+    padding: 10px;
+     
+}
+
+.book-container{
+    padding: 20px;
+    width: 25%;
+    background-color: rgb(44, 42, 40);
+    color: white;
+    border-radius: 10px;
+   margin: 30px; 
+   display: inline-block;
+}
+
+.book-container h2{
+    color:#FD6569;
+
+}
+
+.book-container button{
+    background-color: #de6064;
+    border-radius: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+.round{
+    border-radius: 100%;
+    background-color: #FD6569;
+    color: black;
+    border: none;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    margin-left: 92%;
+    margin-top: 10%;
+   font-size: 40px;
+   bottom: 20px;
+}
+
+#overlay{
+    background-color: black;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+    top: 0px;
+    left: 0;
+    opacity: 0.75;
+    display: none;
+ }
+
+ #popup{
+    background-color:#FD6569;
+    z-index: 2;
+      width: 40%;
+    padding: 30px;
+    position: absolute;
+    top: 20%;
+    left: 27.5%;
+    border-radius: 10px;
+    height: 50%;
+    display: none;
+
+ }
+
+ #popup input{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+     margin: 10px;
+     padding: 4px;
+     font-size: 20px;
+     border-bottom: solid black 2px;
+
+
+       }
+       #popup textarea{
+        background-color: transparent;
+        width: 100%;
+          margin: 10px;
+         padding: 10px;
+         font-size: 20px;
+         border-bottom: solid black 2px;
+    
+    
+           }
+
+#popup button{
+    background-color: #0c0c0c;
+    color: white ;
+    border: none;
+    border-radius: 1.6px;
+    font-size: 17px;
+     padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#popup input:focus{
+    outline: none;
+}
+#popup textarea:focus{
+    outline: none;
+}
+
+#popup input::placeholder{
+    color: #0c0c0c;
+ 
+}
+#popup textarea::placeholder{
+    color: #0c0c0c;
+ 
+}
+

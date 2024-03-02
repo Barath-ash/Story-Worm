@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK WORM</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <div class="navbar">
+       <h1> STORY WORM</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+             <h2>Time and space </h2>
+             <h5>stephen hawkings </h5>
+             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, id. Iste mollitia fugiat voluptatem impedit sequi cum corrupti soluta voluptatibus eaque molestiae laboriosam nobis doloribus necessitatibus, tenetur sed veritatis odit! </p>
+              <button onclick="boom(event)"> delete
+                 
+              </button>
+            </div>
+    </div>
+
+<button class="round"   onclick="click()" type="submit"> + </button>
+
+<div id="overlay"></div>
+<div id="popup">
+    <h2> Add book  </h2>
+    <form >
+        <input type="text" name="book" id="bookname" placeholder="Book Title">
+        <input type="text" name="book" id="bookauthor" placeholder="Book Author">
+        <textarea name="Description" id="book-description" placeholder="Short Description"  ></textarea>
+        <button id="addbook">Add</button>
+        <button id="Cancel-popup">Cancel</button>
+
+     </form>
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
